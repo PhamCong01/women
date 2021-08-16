@@ -102,7 +102,7 @@ function autoPlay() {
     autoPlayImage = setInterval(function () {
         // callback nextImage
         nextImage()
-    },2000)
+    },3000)
 }
 autoPlay()
 
