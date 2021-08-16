@@ -1,0 +1,165 @@
+.about__us {
+    text-align:center;
+}
+.about__us-content {
+    margin-top:  200px;
+}
+
+.about__us-btn {
+    padding: 20px 100px;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    background-color:#747bb4;
+    /* border: none; */
+    cursor: pointer;
+}
+.about__us-btn:hover {
+    color: #747bb4;
+    background-color: #fff;
+    border-color:#747bb4;
+    transition: 0.4s;
+}
+.damesly__about-content {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+.damesly__about-left {
+    width: 50%;
+    height: 100%;
+}
+.damesly__about-left {
+    color: #333;;
+
+}
+.damesly__about-btn {
+    padding: 20px 40px;
+    background-color:#747bb4;
+    color:#fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.damesly__about-btn:hover {
+    color: #747bb4;
+    background-color: #fff;
+    border-color:#747bb4;
+    transition: 0.4s;
+}
+/* about us team start */
+.about__us-team {
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.image-1 {
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 100px;
+
+}
+.about__us-image {
+    width: 100%;
+    margin: 0 auto;
+}
+.about__us-image-1 {
+}
+.about__us-image__content {
+    margin-bottom: 10px;
+}
+.about__us-image-btn {
+    margin-top: 10px;
+
+}
+.image-btn {
+    padding: 10px 20px;
+    background-color:#ffffff;
+    color:rgb(116, 116, 116);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.image-btn:hover {
+    color: #ffffff;
+    background-color: #747bb4;
+    border-color:#747bb4;
+    transition: 0.4s;
+}
+.image-3 {
+    width: 150px;
+}
+/* about us team end */
+.about__us-subscribe {
+    margin-top:250px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+.about__us-subscribe-title {
+    margin-bottom: 20px;
+}
+.about__us-subscribe-input {
+    margin-top: 20px;
+}
+.about__us-subscribe-input input {
+    width:400px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    
+}
+.btn-subscribe{
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    background-color: #333;
+    color:#fff;
+    cursor: pointer;
+}
+.subscribe-input.error {
+    border-color: red;
+    color:red;
+}
+.btn-subscribe:hover {
+    opacity: 0.8;
+}
+@media (max-width: 1365px) {
+    .damesly-about-youtube {
+        width: 600px;
+    }
+}
+@media (max-width: 1023px) {
+    .damesly__about-content {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .damesly__about-left {
+        width:100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .damesly-about-right   {
+        text-align: center;
+    }
+    .damesly-about-youtube {
+        width: 100%;
+    }
+}
+@media (max-width:450px) {
+    .about__us-subscribe-input {
+        padding-left:10px ;
+        padding-right:10px ;
+    }
+    .btn-subscribe {
+        margin-top: 5px;
+        width:100%
+    }
+}

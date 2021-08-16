@@ -1,0 +1,136 @@
+.no__fidex {
+    position: relative;
+}
+.faq__content {
+    width: 100%;
+}
+.faq {
+    margin-bottom: 50px;
+}
+.img-faq {
+    position: relative;
+    width: 100%;
+}
+.faq__content-h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: 600;
+    color:#fff;
+}
+/* faq start */
+.faq {
+    width: 100%;
+    margin-top: 50px;
+}
+.faq__border {
+    height: 100%;
+    border: 1px solid #333;
+}
+.faq__question {
+    color:#333;
+}
+.faq-title {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to right, #dcafbe , #e6ae48);
+    line-height:50px;
+    padding-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #333;
+}
+.faq-title:hover {
+    background: linear-gradient(to right, #e6ae48 , #dcafbe );
+    color:#fff;
+    transition: 0.4s;
+}
+.faq__icon{
+    position: absolute;
+    right: 20px;
+    line-height: 50px;
+}
+.faq__paragah {
+    padding-left:20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: none;
+    transition:0.9s;
+}
+/* block */
+.faq__paragah.faq__block {
+    display:block;
+    transition:0.9s;
+}
+.faq__icon.faq__icon-block {
+    transform: rotate(90deg);
+}
+.faq-title.faq__title-block {
+    color:#fff;
+}
+/* faq end */
+.div {
+    height: 1000px;
+}
+@media (max-width: 1365px) {
+    .faq__content-h2 {
+        top: 14%;
+        left: 45%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .faq__content-h2 {
+        top: 15%;
+        left: 42%;
+    }
+}
+@media (max-width: 610px) {
+    .faq__content-h2 {
+        top: 19%;
+        left: 45%;
+        font-size: 30px;
+    }
+    .faq-title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .faq__content-h2 {
+        top: 16%;
+        left: 43%;
+        font-size: 20px;
+    }
+    .faq-title {
+        font-size: 16px;
+    }
+}
+@media (max-width: 390px) {
+    .faq__content-h2 {
+        top: 17%;
+        left: 43%;
+        font-size: 20px;
+    }
+    .faq__paragah {
+        font-size: 14px;
+    }
+}
+@media (max-width: 330px)  {
+    .faq__content-h2 {
+        top: 22%;
+        left: 43%;
+        font-size: 20px;
+    }
+     .faq__content-h2 {
+        top: 17%;
+        left: 43%;
+        font-size: 20px;
+    }
+    .faq-title {
+        font-size: 13px;
+    }
+    .faq__paragah {
+        font-size: 12px;
+    }
+}

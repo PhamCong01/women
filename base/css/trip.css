@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    margin-top: 150px;
+    text-align: center;
+    font-size:20px;
+    font-weight: 800;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    display: flex;
+    padding-top: 50px;
+}
+.content__moco {
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding-top: 10px;
+}
+
+.content__trip-image {
+    width: 100%;
+}
+.content__list-p {
+    margin-bottom: 15px;
+    color:#333;
+}
+.content__trip {
+    padding: 10px 0px;
+}
+.content__price {
+    padding: 10px 0px 30px 0px;
+}
+.content__people {
+    padding:10px 0px 30px 0px ;
+}
+.fa-dollar-sign {
+    padding-left: 140px;
+}
+.content__trip-btn {
+    margin-left: 110px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color:#8087bf;
+    border-color: #8087bf;
+    cursor: pointer;
+}
+.content__trip-btn:hover {
+    background-color: #8087bf;
+    color:#fff;
+    transition: 0.6s;
+}
+.footer__trip {
+    margin-top: 20px;
+}
+/* media query */
+@media (max-width: 1365px) {
+    .margin__left {
+        margin-left: 20px;
+    }
+} 
+@media (max-width: 1023px)  {
+    .title {
+        font-size: 16px;
+    }
+    .margin__left {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 610px) {
+    .title {
+        font-size: 14px;
+    }
+   
+}
+@media (max-width: 450px) {
+    .title {
+        font-size: 12px;
+    }
+}
+@media (max-width: 319px) {
+    .title {
+        font-size: 12px;
+    }
+}
