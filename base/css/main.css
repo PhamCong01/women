@@ -184,6 +184,10 @@ position: relative;
 }
 /* tablet ipad pro */
 @media (max-width: 1365px) {
+    .community {
+        position: relative;
+        top: 100px;
+    }
     .box__h1-image {
         font-size:20px;
         font-weight: 700;
@@ -456,7 +460,6 @@ position: relative;
     display:flex;
     align-items: center;
     justify-content: center;
-    
 }
 .the__card {
     position:absolute;
@@ -464,9 +467,18 @@ position: relative;
     height: 95%;
     border: 1px solid #858585;
     border-radius:10px;
+  
+    opacity: 0;
+    transition:0.6s;
+    background-color: rgba(218, 216, 115, 0.1);
+    
 /* display:none; */
 }
-
+.container__box:hover .the__card {
+    opacity: 1;
+    transition:0.6s;
+    /* visibility: hidden; */
+}
 
 .the__card-after {
     width: 100%;
